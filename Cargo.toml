@@ -1,0 +1,13 @@
+[package]
+name = "DownloadFromOss"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aliyun-oss-client = "0.12.10"
+chrono = "0.4.38"
+clap = { version = "4.5.8", features = ["derive", "default"] }
+dotenv = "0.15.0"
+tokio = { version = "1.38.0", features = ["full"] }
